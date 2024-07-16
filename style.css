@@ -1,0 +1,203 @@
+body{
+    font-family: sans-serif;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px
+}
+
+#navbar {
+    background-color:#ffe6eb;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    /* border: blue 2px solid; */
+    width: 40%;
+}
+
+/* coffebean logo */
+.logo img {
+width: 50px;
+margin-right: 10px;
+}
+/* brew street logo */
+.logo a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    position: relative;
+    margin-top: -30px;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: red 2px solid; */
+    width: 20%;
+}
+
+
+/* drinks and pastries options */
+.links a{
+    /* background-color: aqua; */
+    text-decoration: none;
+    color: black;
+    
+    
+   
+}
+
+
+#homepageimage img{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 450px;
+    margin-top: 30px;
+}
+
+/* landing page text */
+p{
+    /* background-color: burlywood; */
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+    padding-left: 50px;
+    
+}
+
+/* social media */
+
+#bottomnavbar {
+    margin-top: 30px;
+    background-color: #ffe6eb;
+    /* padding-bottom: 90px;
+    padding-right: 20px;
+    padding-left: 20px; */
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    
+  }
+  
+  .socialmedia {
+    
+    display: flex;
+    justify-content: space-between; 
+    /* align-self: flex-start; */
+    width: 40%; 
+    
+    /* margin-top: 70px; */
+  }
+  
+  .socialmedia a {
+    /* flex: 5;  */
+    /* text-align: center;  */
+    
+    text-decoration: none;
+    color: black;
+  }
+  
+  #shop_address {
+
+    /* margin-top: 130px; */
+    height: 80%;
+   display: flex;
+   justify-content: right;
+   /* align-items: center; */
+   width: 50%;
+  }
+
+  /* drinks css */
+
+#drink_options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#drink_options img{
+    width: 400px;
+}
+
+#drink_names{
+    margin-top: -30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#drink_prices{
+    margin-top: -60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#drink_text{
+    margin-top: 30px;
+}
+
+/* Pasteries css */
+
+#pasteries_options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#pasteries_options img{
+    width: 400px;
+}
+
+#pasteries_names{
+    margin-top: -30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#pasteries_prices{
+    margin-top: -60px;
+    margin-left: -20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#pasteries_text{
+    margin-top: 30px;
+}
+
